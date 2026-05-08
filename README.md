@@ -25,17 +25,26 @@ Size: 1059 samples, 8 columns
 
 # Features used:
 PH                  ---   Acidity level of milk
+
 Temperature         ---   Temperature at testing (°C)
+
 Taste               ---  Good (1) / Bad (0)
+
 Odor                ---   Normal (0) / Abnormal (1)
+
 Fat                 --- Present (1) / Absent (0)
+
 Turbidity           ---  Clear (0) / Cloudy (1)
+
 Colour Visual       ---  colour value (240–255)
 
 # Models Trained & Compared
 Logistic Regression  ---  Baseline classifier
+
 Decision Tree        ---  Interpretable tree-based model
+
 Random Forest        ---  Best accuracy — selected as final model
+
 SVM                  ---  Support Vector Machine
 
 Random Forest was selected as the final model based on highest accuracy and best confusion matrix results.
