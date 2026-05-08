@@ -22,12 +22,21 @@ User enters milk sample values → clicks Analyse → gets instant result with c
 
 Source: Kaggle — Milk Quality Prediction Dataset
 Size: 1059 samples, 8 columns
-Features used:
 
-FeatureDescriptionpHAcidity level of milkTemperatureTemperature at testing (°C)TasteGood (1) / Bad (0)OdorNormal (0) / Abnormal (1)FatPresent (1) / Absent (0)TurbidityClear (0) / Cloudy (1)ColourVisual colour value (240–255)
+# Features used:
+PH                     Acidity level of milk
+Temperature            Temperature at testing (°C)
+Taste                  Good (1) / Bad (0)
+Odor                   Normal (0) / Abnormal (1)
+Fat                    Present (1) / Absent (0)
+Turbidity              Clear (0) / Cloudy (1)
+Colour Visual          colour value (240–255)
 
 # Models Trained & Compared
-ModelDescriptionLogistic RegressionBaseline classifierDecision TreeInterpretable tree-based modelRandom Forest ⭐Best accuracy — selected as final modelSVMSupport Vector Machine
+Logistic Regression    Baseline classifier
+Decision Tree          Interpretable tree-based model
+Random Forest          Best accuracy — selected as final model
+SVM                    Support Vector Machine
 
 Random Forest was selected as the final model based on highest accuracy and best confusion matrix results.
 
@@ -105,5 +114,5 @@ GitHub: https://github.com/Kankshipatle
 LinkedIn: https://www.linkedin.com/in/kankshi-patle-a03a99316/
 
 
-License
+License :
 This project is open source and available under the MIT License.
