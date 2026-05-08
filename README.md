@@ -83,20 +83,22 @@ MilkAdulterationDetector/
 
 # Project Workflow
 1. Load Dataset (1059 milk samples)
+   
         ↓
-2. Exploratory Data Analysis (EDA)
+3. Exploratory Data Analysis (EDA)
+   
         ↓
-3. Preprocess — encode Grade, scale features
+5. Preprocess — encode Grade, scale features
         ↓
-4. Train 4 ML models
+6. Train 4 ML models
         ↓
-5. Compare accuracy + confusion matrix
+7. Compare accuracy + confusion matrix
         ↓
-6. Save best model (Random Forest)
+8. Save best model (Random Forest)
         ↓
-7. Build Streamlit web app
+9. Build Streamlit web app
         ↓
-8. User inputs values → Instant prediction
+10. User inputs values → Instant prediction
 
 Real World Impact
 This tool is designed as a Decision Support System for:
