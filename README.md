@@ -88,6 +88,7 @@ http://localhost:8501
 MilkAdulterationDetector/
 
 │
+
 ├── app.py                  # Streamlit web application
 
 ├── milk_model.pkl          # Trained Random Forest model
