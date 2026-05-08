@@ -24,19 +24,19 @@ Source: Kaggle — Milk Quality Prediction Dataset
 Size: 1059 samples, 8 columns
 
 # Features used:
-PH                     Acidity level of milk
-Temperature            Temperature at testing (°C)
-Taste                  Good (1) / Bad (0)
-Odor                   Normal (0) / Abnormal (1)
-Fat                    Present (1) / Absent (0)
-Turbidity              Clear (0) / Cloudy (1)
-Colour Visual          colour value (240–255)
+PH                  ---   Acidity level of milk
+Temperature         ---   Temperature at testing (°C)
+Taste               ---  Good (1) / Bad (0)
+Odor                ---   Normal (0) / Abnormal (1)
+Fat                 --- Present (1) / Absent (0)
+Turbidity           ---  Clear (0) / Cloudy (1)
+Colour Visual       ---  colour value (240–255)
 
 # Models Trained & Compared
-Logistic Regression    Baseline classifier
-Decision Tree          Interpretable tree-based model
-Random Forest          Best accuracy — selected as final model
-SVM                    Support Vector Machine
+Logistic Regression  ---  Baseline classifier
+Decision Tree        ---  Interpretable tree-based model
+Random Forest        ---  Best accuracy — selected as final model
+SVM                  ---  Support Vector Machine
 
 Random Forest was selected as the final model based on highest accuracy and best confusion matrix results.
 
@@ -83,21 +83,17 @@ MilkAdulterationDetector/
 
 # Project Workflow
 1. Load Dataset (1059 milk samples)
-   
-        ↓
 3. Exploratory Data Analysis (EDA)
-   
-        ↓
 5. Preprocess — encode Grade, scale features
-        ↓
+        
 6. Train 4 ML models
-        ↓
+        
 7. Compare accuracy + confusion matrix
-        ↓
+        
 8. Save best model (Random Forest)
-        ↓
+        
 9. Build Streamlit web app
-        ↓
+        
 10. User inputs values → Instant prediction
 
 Real World Impact
