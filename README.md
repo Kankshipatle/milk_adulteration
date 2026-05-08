@@ -53,10 +53,15 @@ Random Forest was selected as the final model based on highest accuracy and best
 # Tech Stack
 
 Language: Python 3.11
+
 ML Library: Scikit-learn
+
 Data Handling: Pandas, NumPy
+
 Visualization: Matplotlib, Seaborn
+
 Web App: Streamlit
+
 Model Saving: Joblib
 
 
@@ -82,12 +87,19 @@ http://localhost:8501
 # Project Structure
 MilkAdulterationDetector/
 │
+
 ├── app.py                  # Streamlit web application
+
 ├── milk_model.pkl          # Trained Random Forest model
+
 ├── milk_scaler.pkl         # Fitted StandardScaler
+
 ├── milk_notebook.ipynb     # Full ML notebook (EDA + Training)
+
 ├── milknew.csv             # Dataset
+
 ├── requirements.txt        # Python dependencies
+
 └── README.md               # You are here!
 
 # Project Workflow
